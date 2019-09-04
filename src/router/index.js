@@ -44,7 +44,7 @@ router.beforeEach((to, from, next) => {
     })
   } else {
   // 已登录 要跳转的 页面不是 登录页面
-      if (store.state.user.hasGetInfo) {
+    if (store.state.user.hasGetInfo) {
         // 已经含有用户信息
         // vuex 中state的user 模块 hasGetInfo 为true
       // turnTo(to, store.state.user.access, next) //静态权限遗留,可不用

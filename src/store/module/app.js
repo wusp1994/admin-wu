@@ -87,7 +87,7 @@ export default {
       // 做到了菜单树内容和 permission状态 绑定
       // side-menu菜单树内容是由app.js里的menuList这个getter来控制，
       // 所以调整menuList这个getter，使其基于permission生成菜单列表，
-    menuList: (state, getters, rootState) => getMenuByRouter(state.permission, rootState.user.access),
+    menuList: (state) => getMenuByRouter(state.permission),
     errorCount: state => state.errorList.length
   },
   mutations: {

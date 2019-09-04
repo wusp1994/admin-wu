@@ -66,8 +66,8 @@
     //内容区域
     .content-wrapper{
       padding: 18px;
-      height: calc(100% - 80px);
-      overflow: auto;
+      height: calc(100vh - 80px);
+      overflow-y: auto;
       background-color: #E7EDF3;
     }
   }

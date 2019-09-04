@@ -44,7 +44,7 @@
                           <!--<BreadcrumbItem>Breadcrumb</BreadcrumbItem>-->
                       </Breadcrumb>
                   </div>
-                  <Content class="content-wrapper">
+                  <Content class="content-wrapper" id="content-wrapper">
                       <!--keep-alive 是 Vue 内置的一个组件，可以使被包含的组件保留状态（缓存），或避免重新渲染。-->
                       <!--props-->
                           <!--include - 字符串或正则表达，只有匹配的组件会被缓存-->
@@ -66,6 +66,8 @@
     import logoImg from '@/assets/img/logo.png'
     import { showTitle } from "@/libs/util";
     import routers from '@/router/routers'
+    import $ from "jquery"
+    import { niceScroll } from "jquery.nicescroll"
 
     export default {
     data(){
@@ -143,7 +145,8 @@
      * 用上面编译好的html内容替换el属性指向的DOM对象。完成模板中的html渲染到html页面中。此过程中进行ajax交互。
      */
     mounted(){
-        /**
+      $("#content-wrapper").niceScroll();
+      /**
          * @description 初始化设置面包屑导航,要想面包屑导航随动，需要 监测 路由变化做出改变
          */
         //set 首页路由对象

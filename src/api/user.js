@@ -4,7 +4,6 @@ const url = moduleApiUrl.permission_manager;
 const axios = new HttpRequest(url)
 
 export const getUserInfo = (token) => {
-
     return axios.request({
         url: 'get_info',
         params: {

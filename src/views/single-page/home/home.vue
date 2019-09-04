@@ -1,6 +1,8 @@
 <template>
   <div>
-    home
+      <p v-for="(item,index) in 200">
+          {{`home`+index}} <br><br><br><br><br>
+      </p>
   </div>
 </template>
 
