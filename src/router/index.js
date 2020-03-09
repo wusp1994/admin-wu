@@ -11,6 +11,7 @@ import routers from "@/router/routers";
 const { homeName } = config
 
 
+
 Vue.use(Router)
 const router = new Router({
     routes:allMenus,

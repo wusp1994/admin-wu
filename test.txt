@@ -1,21 +1,3 @@
-# admin-wu
-> 后台管理系统模，包含动态：权限设计，组件布局，面包屑导航，axios封装类，工具类，
-
-## treer生成项目目录树
-treer -e test.txt -i "/node_modules|.git|.idea|dist|test.md/"
-
-​	-e =>export 导出的简写，treer -e <导出路径/文件名>
-
-​	-d =>默认的目录为当前的路径，可以通过`-d` 传入指定的路径.   treer -d <指定路径>
-
-​	-i => 忽略文件。 treer -i <"文件名，支持正则表达式/regex/哦">
-
-
-
-
-
-
-
 D:\workSpace\code\wu_code\gitProject\admin-wu
 ├─.browserslistrc
 ├─.postcssrc.js
@@ -149,5 +131,3 @@ D:\workSpace\code\wu_code\gitProject\admin-wu
 ├─public
 |   ├─favicon.ico
 |   └index.html
-
-
