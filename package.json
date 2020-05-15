@@ -24,9 +24,9 @@
     "@vue/cli-service": "^3.8.0",
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
-    "node-sass": "^4.9.0",
-    "sass-loader": "^7.1.0",
     "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
   }
 }

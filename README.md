@@ -1,7 +1,12 @@
 # admin-wu
 > 后台管理系统模，包含动态：权限设计，组件布局，面包屑导航，axios封装类，工具类，
 
+## 分支说明
+
+- master分支：为通用模板，版本迭代增加配置，取用时候，去除相关不需要配置
+
 ## treer生成项目目录树
+
 treer -e test.txt -i "/node_modules|.git|.idea|dist|test.md/"
 
 ​	-e =>export 导出的简写，treer -e <导出路径/文件名>
