@@ -10,7 +10,7 @@
 
 ## treer生成项目目录树
 安装
-npm install treer -g
+npm install treer -g 
 运行
 treer -e test.txt -i "/node_modules|.git|.idea|dist|test.md/"
 
