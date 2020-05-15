@@ -24,41 +24,42 @@ treer -e test.txt -i "/node_modules|.git|.idea|dist|test.md/"
 
 
 
-D:\workSpace\code\wu_code\gitProject\admin-wu
-├─.browserslistrc
-├─.postcssrc.js
-├─alias.config.js
-├─babel.config.js
-├─package-lock.json
-├─package.json
-├─README.md
-├─vue.config.js
-├─testDataJson
-|      ├─上汽售后项目
-|      |   └userinfo.json
-├─src
-|  ├─App.vue
-|  ├─index.less
-|  ├─main.js
-|  ├─views
-|  |   ├─system
-|  |   |   ├─userManage
-|  |   |   |     └index.vue
-|  |   |   ├─roleManage
-|  |   |   |     ├─index.scss
-|  |   |   |     └index.vue
-|  |   |   ├─menuManage
-|  |   |   |     ├─index.scss
-|  |   |   |     ├─index.vue
-|  |   |   |     └mockApi.js
-|  |   ├─single-page
-|  |   |      ├─home
-|  |   |      |  ├─home.vue
-|  |   |      |  └index.js
-|  |   ├─login
-|  |   |   └login.vue
-|  ├─store
-|  |   ├─index.js
+```
+D:\workSpace\code\wu_code\gitProject\admin-wu 
+├─.browserslistrc 
+├─.postcssrc.js 
+├─alias.config.js 
+├─babel.config.js 
+├─package-lock.json 
+├─package.json 
+├─README.md 
+├─vue.config.js 
+├─testDataJson 
+|      ├─上汽售后项目 
+|      |   └userinfo.json 
+├─src 
+|  ├─App.vue 
+|  ├─index.less 
+|  ├─main.js 
+|  ├─views 
+|  |   ├─system 
+|  |   |   ├─userManage 
+|  |   |   |     └index.vue  
+|  |   |   ├─roleManage 
+|  |   |   |     ├─index.scss 
+|  |   |   |     └index.vue 
+|  |   |   ├─menuManage 
+|  |   |   |     ├─index.scss 
+|  |   |   |     ├─index.vue 
+|  |   |   |     └mockApi.js 
+|  |   ├─single-page 
+|  |   |      ├─home 
+|  |   |      |  ├─home.vue 
+|  |   |      |  └index.js 
+|  |   ├─login 
+|  |   |   └login.vue 
+|  ├─store 
+|  |   ├─index.js 
 |  |   ├─module
 |  |   |   ├─app.js
 |  |   |   └user.js
@@ -157,5 +158,4 @@ D:\workSpace\code\wu_code\gitProject\admin-wu
 ├─public
 |   ├─favicon.ico
 |   └index.html
-
-
+```
