@@ -9,9 +9,9 @@
 
 
 ## treer生成项目目录树
-安装
-npm install treer -g 
-运行
+安装  
+npm install treer -g   
+运行  
 treer -e test.txt -i "/node_modules|.git|.idea|dist|test.md/"
 
 ​	-e =>export 导出的简写，treer -e <导出路径/文件名>
